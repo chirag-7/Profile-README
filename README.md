@@ -16,7 +16,6 @@ Beyond the 100+ mirrored repositories, I have developed these projects to practi
 
 * **Deep Learning & Systems**
     * **[MRNet Medical Imaging](https://github.com/chirag-7/MRNet-Deep-Learning)**: Deep Learning applications for medical image analysis.
-    * **[Nano-GPT in C++](https://github.com/chirag-7/Nano-GPT-in-C-)**: Re-implementing the NanoGPT architecture in C++ to understand low-level performance.
     * **[POI Recommendation System](https://github.com/chirag-7/next-poi-travel-recommendation)**: A recommendation system for predicting travel itineraries from check-in data.
 
 * **Data Analysis**
@@ -41,4 +40,4 @@ This table organizes the 100+ SOTA mirrors I maintain across key research axes.
 | **10. Multimodal** | [CLIP](https://github.com/chirag-7/CLIP), [Stable Diffusion](https://github.com/chirag-7/stable-diffusion-pytorch), [AlphaFold](https://github.com/chirag-7/alphafold) |
 
 ---
-📧 **Contact**: [LinkedIn](https://www.linkedin.com/in/chiragchivate/) | chivate.c@northeastern.edu
+📧 **Contact**: [LinkedIn](www.linkedin.com/in/chirag-chivate-297209133) | chirag_chivate@yahoo.com
