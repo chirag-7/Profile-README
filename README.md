@@ -2,12 +2,12 @@
 
 # Chirag Mahaveer Chivate
 
-I am building a research-grade foundation in Artificial Intelligence and Machine Learning. To achieve this, I have curated a **Master Registry of 100+ SOTA repositories**, mirrored directly from leading research labs to audit their engineering patterns and implementation details.
+I am building a research-grade foundation in Artificial Intelligence and Machine Learning. To achieve this, I have curated a **Registry of SOTA repositories**, mirrored directly from leading research labs to audit their engineering patterns and implementation details.
 
 ---
 
 ## Selected Personal Projects & Practice
-Beyond the 100+ mirrored repositories, I have developed these projects to practice core ML methodologies:
+Beyond the mirrored repositories, I have developed these projects to practice core ML methodologies:
 
 * **Financial & Causal ML**
     * **[Rossmann Sales Forecasting](https://github.com/chirag-7/rossmann-sales-forecasting-attention)**: Time-series forecasting using Prophet and LSTM with Attention to predict revenue for 1,115 stores.
@@ -24,8 +24,8 @@ Beyond the 100+ mirrored repositories, I have developed these projects to practi
 
 ---
 
-## The 100-Project Master Registry
-This table organizes the 100+ SOTA mirrors I maintain across key research axes.
+## The Project Master Registry
+This table organizes the SOTA mirrors I maintain across key research axes.
 
 | Career Cluster | Key Mirrored Projects (Clean Mirrors) |
 | :--- | :--- |
