@@ -2,7 +2,7 @@
 
 # Chirag Mahaveer Chivate
 
-I am building a research-grade foundation in Artificial Intelligence and Machine Learning. To achieve this, I have curated a **Registry of SOTA repositories**, mirrored directly from leading research labs to audit their engineering patterns and implementation details.
+I am building a research-grade foundation in Artificial Intelligence and Machine Learning. To achieve this, I have curated a **Registry of repositories**, mirrored directly from leading research labs to audit their engineering patterns and implementation details.
 
 ---
 
@@ -25,9 +25,9 @@ Beyond the mirrored repositories, I have developed these projects to practice co
 ---
 
 ## The Project Master Registry
-This table organizes the SOTA mirrors I maintain across key research axes.
+This table organizes the mirrors I maintain across key research axes.
 
-| Career Cluster | Key Mirrored Projects (Clean Mirrors) |
+| Career Cluster | Key Mirrored Projects |
 | :--- | :--- |
 | **1. AI Foundations** | [nanoGPT](https://github.com/chirag-7/nanoGPT), [minbpe](https://github.com/chirag-7/minbpe), [BitNet](https://github.com/chirag-7/BitNet), [TinyLlama](https://github.com/chirag-7/TinyLlama), [Mamba](https://github.com/chirag-7/mamba), [mistral-src](https://github.com/chirag-7/mistral-src), [mixture-of-experts](https://github.com/chirag-7/mixture-of-experts), [rotary-embedding-torch](https://github.com/chirag-7/rotary-embedding-torch), [llama3-from-scratch](https://github.com/chirag-7/llama3-from-scratch), [annotated-transformer](https://github.com/chirag-7/annotated-transformer), [Nano-GPT in C++](https://github.com/chirag-7/Nano-GPT-in-C-), [Encoder-Decoder-Transformer](https://github.com/chirag-7/Encoder-Decoder-Transformer) |
 | **2. Agents & Search** | [OpenDevin](https://github.com/chirag-7/OpenDevin), [Storm](https://github.com/chirag-7/storm), [Tree-of-Thought](https://github.com/chirag-7/tree-of-thought-llm), [LangGraph](https://github.com/chirag-7/langgraph), [500-AI-Agents-Projects](https://github.com/chirag-7/500-AI-Agents-Projects), [AutoGPT](https://github.com/chirag-7/AutoGPT), [MemGPT](https://github.com/chirag-7/MemGPT), [ChatArena](https://github.com/chirag-7/chatarena), [Verba](https://github.com/chirag-7/verba), [GPTScript](https://github.com/chirag-7/gptscript), [Semantic-Router](https://github.com/chirag-7/semantic-router), [ContextGem](https://github.com/chirag-7/contextgem) |
