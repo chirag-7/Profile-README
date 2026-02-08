@@ -39,6 +39,12 @@ This table organizes the mirrors I maintain across key research axes.
 | **8. Training & Align** | [Unsloth](https://github.com/chirag-7/unsloth), [LLaMA-Factory](https://github.com/chirag-7/LLaMA-Factory), [DPO](https://github.com/chirag-7/direct-preference-optimization), [DistillKit](https://github.com/chirag-7/DistillKit), [TRL](https://github.com/chirag-7/trl), [QLoRA](https://github.com/chirag-7/qlora), [Self-Rewarding-LM](https://github.com/chirag-7/self-rewarding-lm-pytorch), [UltraFeedback](https://github.com/chirag-7/UltraFeedback), [LLMs-from-Scratch](https://github.com/chirag-7/LLMs-from-scratch) |
 | **9. MLOps** | [BentoML](https://github.com/chirag-7/BentoML), [MLflow-Example](https://github.com/chirag-7/mlflow-example), [Hydra](https://github.com/chirag-7/hydra), [ZenML](https://github.com/chirag-7/zenml), [Evidently](https://github.com/chirag-7/evidently), [Dedupe](https://github.com/chirag-7/dedupe), [DataTrove](https://github.com/chirag-7/datatrove), [Model-Card-Generator](https://github.com/chirag-7/model-card-generator), [End-to-End-ML](https://github.com/chirag-7/End-to-End-ML) |
 | **10. Multimodal** | [CLIP](https://github.com/chirag-7/CLIP), [Stable-Diffusion](https://github.com/chirag-7/stable-diffusion-pytorch), [AlphaFold](https://github.com/chirag-7/alphafold), [BioGPT](https://github.com/chirag-7/BioGPT), [AI-for-Science](https://github.com/chirag-7/End-to-End-AI-for-Science), [Multimodal-Tools](https://github.com/chirag-7/multimodal-tools), [Recommenders](https://github.com/chirag-7/recommenders) |
+| **11. World Models** | [vjepa2](https://github.com/chirag-7/vjepa2) |
+| **12. Nested Learning** | [HOPE-Architecture](https://github.com/chirag-7/HOPE-Architecture), [CMS-Mirror](https://github.com/chirag-7/CMS-Mirror) |
+| **13. Sparse Compute** | [Engram](https://github.com/chirag-7/Engram), [Samba](https://github.com/chirag-7/Samba) |
+| **14. Symbolic Reasoning** | [AlphaGeometry2](https://github.com/chirag-7/AlphaGeometry2), [DeepSeekMath-V2](https://github.com/chirag-7/DeepSeekMath-V2) |
+| **15. Agentic Reliability** | [guardrails-ai](https://github.com/chirag-7/guardrails-ai), [SpecGuard](https://github.com/chirag-7/SpecGuard) |
+| **16. Frontier Alignment** | [GRPO-implementation](https://github.com/chirag-7/GRPO-implementation) |
 
 ---
 📧 **Contact**: [LinkedIn](https://www.linkedin.com/in/chirag-chivate-297209133) | chirag_chivate@yahoo.com
