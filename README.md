@@ -9,6 +9,9 @@ I am building a research-grade foundation in Artificial Intelligence and Machine
 ## Selected Personal Projects & Practice
 Beyond the mirrored repositories, I have developed these projects to practice core ML methodologies:
 
+* **MLOps & Production AI**
+     * **[ML-Ops-RAG-pipeline](https://github.com/chirag-7/ML-Ops-RAG-pipeline): A general-purpose, production-oriented RAG playground. This project implements best practices in LLMOps, featuring LakeFS for document versioning, Qdrant for vector storage, and an end-to-end observability stack with Prometheus and Grafana. It is designed to be a scalable foundation for any retrieval-augmented application.
+
 * **Financial & Causal ML**
     * **[Rossmann Sales Forecasting](https://github.com/chirag-7/rossmann-sales-forecasting-attention)**: Time-series forecasting using Prophet and LSTM with Attention to predict revenue for 1,115 stores.
     * **[Causal Effect Analysis](https://github.com/chirag-7/Minimum-wage-and-employemnt-casual-effect-regression-analysis)**: Regression analysis investigating the causal relationship between minimum wage and employment.
