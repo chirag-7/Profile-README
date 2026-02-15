@@ -13,7 +13,7 @@ Beyond the mirrored repositories, I have developed these personal projects to ap
      * **[ML-Ops-RAG-pipeline](https://github.com/chirag-7/ML-Ops-RAG-pipeline)**: A general-purpose, production-oriented RAG playground. This project implements best practices in MLOps, featuring LakeFS for document versioning, Qdrant for vector storage, and an end-to-end observability stack with Prometheus and Grafana. It is designed to be a scalable foundation for any retrieval-augmented application.
 
 * **Biotechnology & AI**
-    * **[Protein Tuning](https://github.com/chirag-7/Protein_Tuning_RL)**: A framework for optimizing Protein Language Models (pLMs) to generate stable and functional biological sequences.
+    * **[Protein Tuning wt RL](https://github.com/chirag-7/Protein_Tuning_RL)**: A framework for optimizing Protein Language Models (pLMs) to generate stable and functional biological sequences.
         * **Techniques**: Implements a complete **SFT (Supervised Fine-Tuning) → RL (Reinforcement Learning)** pipeline using **Weighted DPO** and **GRPO** algorithms.
         * **Optimization Strategy**: Features a hybrid training system that dynamically switches between **Full Fine-Tuning** for specialized small models (e.g., ZymCTRL) and **Low-Rank Adaptation (LoRA)** for large foundation models (e.g., BioMistral, Llama-3) to enable efficient research-grade protein design on consumer hardware.
 
