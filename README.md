@@ -9,6 +9,14 @@ This github consists of **Perosnal Projects** and a research-grade foundation in
 ## Personal Projects
 Beyond the mirrored repositories, I have developed these personal projects to apply core ML methods for applications:
 
+* **Reasoning & Frontiers**
+    * **[Social Cognition Benchmark](https://github.com/chirag-7/Social-Cognition-Benchmark)**: A comprehensive evaluation framework for measuring progress toward AGI through cognitive and social intelligence tasks.
+        * **Scope**: Evaluates LLM performance across 24+ complex reasoning tracks including **Theory of Mind (ToM)**, **Game Theory** (Liar's Dice, Centipede Game), and **Pragmatic Intent Detection**.
+        * **Multimodality**: Integrates specialized datasets like **MELD** and **EMOTIC** to assess multimodal emotion and social situation recognition.
+    * **[LSST Classification](https://github.com/chirag-7/LSST_Classification)**: An astronomical time-series classification pipeline developed for the LSST (Large Synoptic Survey Telescope) project.
+        * **Architecture**: Implements **Temporal Fusion Transformers (TFT)** and **State Space Models (SSM)** to classify light curves from the PLAsTiCC dataset.
+        * **Technical Depth**: Features a production-grade pipeline with custom data stratification for 100k+ astronomical objects, optimized using weighted log-loss and Brier score metrics.
+
 * **MLOps & Production AI**
      * **[ML-Ops-RAG-pipeline](https://github.com/chirag-7/ML-Ops-RAG-pipeline)**: A general-purpose, production-oriented RAG playground. This project implements best practices in MLOps, featuring LakeFS for document versioning, Qdrant for vector storage, and an end-to-end observability stack with Prometheus and Grafana. It is designed to be a scalable foundation for any retrieval-augmented application.
 
@@ -23,6 +31,8 @@ Beyond the mirrored repositories, I have developed these personal projects to ap
         * **Unified Security**: Features **Input Rails** for jailbreak/injection detection, **Dialog Rails** for topic and scope enforcement, **Execution Rails** for secure RBAC tool usage, and **Output Rails** for hallucination mitigation and fact-checking.
 
 * **Financial & Causal ML**
+    * **[DRW Crypto Market Prediction](https://github.com/chirag-7/DRW-Crypto-Market-Prediction-Kaggle-)**: **4th Place Solution** (Top 0.3% of 1,448 participants) for predicting high-frequency next-tick returns.
+        * **Strategy**: A segmented dual-model ensemble using **ARDRegression** for sparse linear signals and **XGBoost** for non-linear interactions, achieving a ~0.1192 Pearson correlation.
     * **[Rossmann Sales Forecasting](https://github.com/chirag-7/rossmann-sales-forecasting-attention)**: Time-series forecasting using Prophet and LSTM with Attention to predict revenue for 1,115 stores.
     * **[Causal Effect Analysis](https://github.com/chirag-7/Minimum-wage-and-employemnt-casual-effect-regression-analysis)**: Regression analysis investigating the causal relationship between minimum wage and employment.
     * **[RL Trading Agent](https://github.com/chirag-7/RL-Trading-Agent)**: Exploratory implementation of Reinforcement Learning for trading strategy optimization.
