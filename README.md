@@ -17,6 +17,61 @@ Beyond the mirrored repositories, I have developed these personal projects to ap
         * **Architecture**: Implements **Temporal Fusion Transformers (TFT)** and **State Space Models (SSM)** to classify light curves from the PLAsTiCC dataset.
         * **Technical Depth**: Features a production-grade pipeline with custom data stratification for 100k+ astronomical objects, optimized using weighted log-loss and Brier score metrics.
 
+* **Data Engineering, Data Science & MLOps Pipelines**
+    * **[Smart Traffic Urban Traffic Intelligence](https://github.com/chirag-7/Smart-Traffic-Urban-Traffic-Intelligence)**: An end-to-end real-time intelligent transportation system and demand forecasting infrastructure.
+        * **Architecture**: Deploys a streaming data ingestion and synchronization layer utilizing Apache Kafka paired with Spark Structured Streaming and Delta Lake storage.
+        * **Technical Depth**: Packages containerized LightGBM models optimized via an ONNX Runtime layer to deliver sub-second telemetry predictions monitored via integrated Prometheus and Grafana dashboards.
+    * **[Fraud Detection MLOps Pipeline](https://github.com/chirag-7/Fraud-Detection-MLOps-Pipeline)**: Automated enterprise MLOps ecosystem designed for real-time transactional financial fraud detection.
+        * **Architecture**: Implements a resilient orchestration workflow utilizing Confluent Kafka and Apache Spark Structured Streaming managed via automated Apache Airflow DAGs.
+        * **Technical Depth**: Integrates an end-to-end MLflow model tracking lifecycle with automated versioning and asset logging over AWS S3-compatible object storage layers.
+    * **[Retail Demand Forecasting](https://github.com/chirag-7/Retail-demand-forecasting)**: Production-grade supply chain demand prediction platform built for multi-stage operational safety.
+        * **Architecture**: Leverages Data Version Control (DVC) pipelines to programmatically track data mutations, feature extractions, and data preparation runs.
+        * **Technical Depth**: Coordinates unified experiment run logging and deployment tasks via an integrated containerized pipeline using MLflow registries and Docker microservices.
+
+* **AI Engineering with Foundation Models & Harness Evaluation**
+    * **[KnowledgeGraphQA Langgraph](https://github.com/chirag-7/KnowledgeGraphQA-Langgraph)**: An autonomous text-to-graph Knowledge Mining and complex question-answering architecture.
+        * **Architecture**: Links stateful LangGraph agent nodes with a Neo4j graph database backend to traverse and map complex multi-hop entities.
+        * **Technical Depth**: Implements automated cyclical reflection loops to dynamically translate natural language queries into deterministic Cypher expressions with vector-fallback indices.
+    * **[LLM Medical Finetuning](https://github.com/chirag-7/LLM-Medical-Finetuning)**: Domain-specific fine-tuning engine optimized for specialized medical dialogue translation.
+        * **Architecture**: Adapts 8B parameter open-source foundational models on targeted biomedical instruct data pools.
+        * **Technical Depth**: Implements memory-efficient 4-bit QLoRA structural adapters using Unsloth and BitsAndBytes to reduce VRAM footprints and maximize Model Flops Utilization (MFU).
+    * **[Expert Finder Eval Harness](https://github.com/chirag-7/Expert-Finder-eval-harness)**: A continuous integration testing and alignment evaluation harness engineered for retrieval systems.
+        * **Architecture**: Constructs an offline-testable validation benchmark over an OpenAlex textual corpus using Promptfoo and Python assertion runners.
+        * **Technical Depth**: Implements rubric-based verification frameworks alongside a self-validating LLM judge audited via Cohen's $\kappa$ agreement metrics and positional bias flip-rate probes.
+
+* **Industrial Analytics & Quality Engineering**
+    * **[Predictive Maintenance MLOps](https://github.com/chirag-7/predictive-maintenance-mlops)**: High-frequency IoT tool Fault Detection and Classification (FDC) streaming platform.
+        * **Architecture**: Connects industrial factory machine telemetry feeds directly into a streaming predictive pipeline.
+        * **Technical Depth**: Serves containerized Gradient Boosting classifiers via FastAPI on AWS ECS clusters to process real-time degradation metrics under sub-100ms latency limits.
+    * **[Semiconductor Wafer Defect Classification](https://github.com/chirag-7/Semiconductor-Wafer-Defect-Classification)**: Spatial wafer bin map defect recognition and yield attribution system.
+        * **Architecture**: Automates cleanroom defect pattern tracking over the benchmark WM-811K semiconductor wafer geometric spatial dataset.
+        * **Technical Depth**: Extracts advanced structural geometric, density, and Radon transform features to drive ensemble random forest models for automated yield inspection.
+    * **[SPC](https://github.com/chirag-7/SPC)**: Manufacturing quality analytics platform executing automated Statistical Process Control metrics.
+        * **Architecture**: Assesses hardware fabrication line stability by processing raw measurements into continuous historical monitoring arrays.
+        * **Technical Depth**: Programs a deterministic quality rule engine following the Western Electric pattern rules to calculate Mean $\bar{X}$ and Range $R$ variances, instantly flagging equipment drift.
+
+* **Biostatistics & Computational Biology**
+    * **[scRNA Seq ScanPy](https://github.com/chirag-7/scRNA-Seq-ScanPy)**: High-dimensional transcriptomic sequence processing and single-cell expression analysis pipeline.
+        * **Architecture**: Utilizes the Scanpy package to process highly sparse, high-dimensional single-cell RNA sequencing matrices from peripheral blood mononuclear cells (PBMCs).
+        * **Technical Depth**: Deploys graph-based Leiden clustering algorithms combined with log-normalization loops and Wilcoxon rank-sum differential tests to isolate cell variants.
+    * **[Breast Cancer Survival Analysis](https://github.com/chirag-7/Breast-Cancer-Survival-Analysis)**: Clinical trial biostatistics and prognostic risk factor evaluation platform.
+        * **Architecture**: Maps longitudinal patient oncology records using non-parametric Kaplan-Meier survival curves and Log-Rank hypothesis significance scoring.
+        * **Technical Depth**: Fits semi-parametric Cox Proportional Hazards and parametric Weibull Accelerated Failure Time (AFT) models to properly evaluate covariates under right-censored time constraints.
+    * **[VAE for De Novo Molecular Generation](https://github.com/chirag-7/VAE-for-De-Novo-Molecular-Generation)**: Deep variational generative model for structural computational chemistry and drug discovery.
+        * **Architecture**: Implements sequence autoencoders parsing molecular strings tokenized via SMILES and SELFIES syntax rules.
+        * **Technical Depth**: Evaluates continuous latent space generation via a $\beta$-TC-VAE architecture in PyTorch, mapping outputs against Quantitative Estimate of Drug-likeness (QED) and Synthetic Accessibility (SA) constraints.
+
+* **Large-Scale Training**
+    * **[RLVR](https://github.com/chirag-7/RLVR)**: Reasoning optimization post-training alignment suite using Reinforcement Learning with Verifiable Rewards.
+        * **Architecture**: Implements Group Relative Policy Optimization (GRPO) over the GSM8K mathematical reasoning token dataset to optimize adapter policies.
+        * **Technical Depth**: Bypasses unstable neural reward models by building dual rule-based deterministic parsers that mathematically verify code structure, exact string formats, and solution correctness.
+    * **[Pi Zero Pytorch](https://github.com/chirag-7/pi-zero-pytorch)**: Embodied Vision-Language-Action (VLA) robotics foundational policy architecture.
+        * **Architecture**: Implements a Pi0-style physical intelligence network to execute training loops over interleaved multi-modal inputs and action-conditioned physical trajectories.
+        * **Technical Depth**: Pairs a multi-modal pre-fusion Transformer core with a Flow Matching continuous diffusion inference kernel to stream smooth, real-time spatial manipulation joint coordinates.
+    * **[Flamingo Pytorch](https://github.com/chirag-7/flamingo-pytorch)**: Multimodal interleaved vision-language foundational sequence generation engine.
+        * **Architecture**: Builds a Pythonic implementation of the DeepMind Flamingo framework, introducing Gated Cross-Attention blocks to bridge frozen Vision Encoders and Large Language Models.
+        * **Technical Depth**: Implements a structural Perceiver Resampler to reduce variable-sized visual spatial grids into a fixed token footprint, avoiding context window scaling explosions.
+
 * **AI Safety & Governance**
     * **[AI Guardrails](https://github.com/chirag-7/AI_Guardrails)**: A modular **Defense-in-Depth** framework for securing Large Language Model agents against adversarial attacks and operational failures.
         * **Architecture**: Implements a **4-Layer Defense Pipeline** (Input, Dialog, Execution, Output) using **NVIDIA NeMo Guardrails** and **Colang** to enforce strict behavioral policies.
