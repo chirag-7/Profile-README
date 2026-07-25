@@ -39,6 +39,77 @@ Beyond the mirrored repositories, I have developed these personal projects to ap
         * **Architecture**: Constructs an offline-testable validation benchmark over an OpenAlex textual corpus using Promptfoo and Python assertion runners.
         * **Technical Depth**: Implements rubric-based verification frameworks alongside a self-validating LLM judge audited via Cohen's $\kappa$ agreement metrics and positional bias flip-rate probes.
 
+* **Large-Scale Training**
+    * **[RLVR](https://github.com/chirag-7/RLVR)**: Reasoning optimization post-training alignment suite using Reinforcement Learning with Verifiable Rewards.
+        * **Architecture**: Implements Group Relative Policy Optimization (GRPO) over the GSM8K mathematical reasoning token dataset to optimize adapter policies.
+        * **Technical Depth**: Bypasses unstable neural reward models by building dual rule-based deterministic parsers that mathematically verify code structure, exact string formats, and solution correctness.
+    * **[Pi Zero Pytorch](https://github.com/chirag-7/pi-zero-pytorch)**: Embodied Vision-Language-Action (VLA) robotics foundational policy architecture.
+        * **Architecture**: Implements a Pi0-style physical intelligence network to execute training loops over interleaved multi-modal inputs and action-conditioned physical trajectories.
+        * **Technical Depth**: Pairs a multi-modal pre-fusion Transformer core with a Flow Matching continuous diffusion inference kernel to stream smooth, real-time spatial manipulation joint coordinates.
+    * **[Flamingo Pytorch](https://github.com/chirag-7/flamingo-pytorch)**: Multimodal interleaved vision-language foundational sequence generation engine.
+        * **Architecture**: Builds a Pythonic implementation of the DeepMind Flamingo framework, introducing Gated Cross-Attention blocks to bridge frozen Vision Encoders and Large Language Models.
+        * **Technical Depth**: Implements a structural Perceiver Resampler to reduce variable-sized visual spatial grids into a fixed token footprint, avoiding context window scaling explosions.
+
+* **AI Safety & Governance**
+    * **[AI Guardrails](https://github.com/chirag-7/AI_Guardrails)**: A modular **Defense-in-Depth** framework for securing Large Language Model agents against adversarial attacks and operational failures.
+        * **Architecture**: Implements a **4-Layer Defense Pipeline** (Input, Dialog, Execution, Output) using **NVIDIA NeMo Guardrails** and **Colang** to enforce strict behavioral policies.
+        * **Unified Security**: Features **Input Rails** for jailbreak/injection detection, **Dialog Rails** for topic and scope enforcement, **Execution Rails** for secure RBAC tool usage, and **Output Rails** for hallucination mitigation and fact-checking.
+
+* **High-Frequency Trading & Market Microstructure**
+    * **[Market_Maker_Strategies](https://github.com/chirag-7/Market_Maker_Strategies)**: Algorithmic market-making engine implementing Numba-accelerated optimal quoting strategies.
+        * **Architecture**: Implements Avellaneda-Stoikov inventory decay dynamics to calculate dynamic reservation prices and optimal bid-ask spread quotes under toxic order flow.
+        * **Technical Depth**: Executes sub-millisecond spread adjustments based on real-time inventory risk aversion ($\gamma$) and order density profiles ($\kappa$), achieving positive asymptotic utility and inventory variance control.
+    * **[QuantumFlow / OFI Engine](https://github.com/chirag-7/QuantumFlow---Next-Generation-HFT-Prediction-Engine)**: High-frequency market microstructure feature extraction pipeline for tick-by-tick order book impact prediction.
+        * **Architecture**: Processes Level 2/3 limit order book logs using Numba and Polars to calculate real-time Order Flow Imbalance (OFI) and Micro-Price estimators.
+        * **Technical Depth**: Processes 120,000 order events/sec to extract multi-level queue imbalances, explaining up to $65\%$ ($R^2 = 0.65$) of contemporaneous price impact.
+    * **[TLOB](https://github.com/chirag-7/TLOB)**: Deep limit order book forecasting engine implementing the dual-attention transformer architecture.
+        * **Architecture**: Integrates temporal and spatial self-attention modules in PyTorch to capture multi-level LOB queue dynamics.
+        * **Technical Depth**: Processes spatial-temporal order book features across LOBSTER L3 data, achieving a benchmark 92.8% macro F1-score in sub-second price trend prediction.
+
+* **Front Office Quantitative Research & Systematic Alpha**
+    * **[StatArb-Research](https://github.com/chirag-7/StatArb-Research)**: Statistical arbitrage alpha generation engine implementing rolling factor extraction and mean-reversion trading.
+        * **Architecture**: Leverages Polars, Statsmodels, and SciPy to perform rolling PCA factor extraction and fit Ornstein-Uhlenbeck processes.
+        * **Technical Depth**: Computes dynamic s-scores under transaction cost constraints to execute market-neutral long/short equity signals, delivering a 1.44 annualized Sharpe ratio.
+    * **[deepLearningVolatility](https://github.com/chirag-7/deepLearningVolatility)**: Deep neural network surface surrogate engine for option pricing and volatility smile calibration.
+        * **Architecture**: Trains deep neural architectures in PyTorch on Rough Heston Monte Carlo simulation paths to learn non-linear implied volatility mappings.
+        * **Technical Depth**: Accelerates calibration speed over traditional numerical solvers while bounding option pricing errors within $<0.01\%$ RMSE.
+    * **[Deep-Hedging](https://github.com/chirag-7/Deep-Hedging)**: Neural policy network optimization framework for dynamic derivative portfolio hedging under market frictions.
+        * **Architecture**: Trains reinforcement learning policy agents in PyTorch under proportional transaction costs ($c=1\%$) across simulated market paths.
+        * **Technical Depth**: Directly optimizes Entropic Risk Measures and Expected Shortfall ($CVaR_{99\%}$), achieving a 21.4% tail-risk reduction relative to Black-Scholes Delta baselines.
+
+* **Middle & Back Office Quantitative Risk & Governance**
+    * **[CVaR-Portfolio](https://github.com/chirag-7/CVaR-Portfolio)**: High-dimensional convex portfolio risk optimization engine maximizing tail-loss protection.
+        * **Architecture**: Formulates linear programming routines in CVXPY and Numba based on Rockafellar & Uryasev (2000) to solve Conditional Value-at-Risk ($CVaR$) allocations.
+        * **Technical Depth**: Solves portfolio weights across high-dimensional asset universes, reducing extreme tail-loss drawdowns by 22% relative to Markowitz Mean-Variance baselines.
+    * **[VaR-Backtesting](https://github.com/chirag-7/VaR-Backtesting)**: Value-at-Risk model validation engine executing statistical hypothesis testing for regulatory auditing.
+        * **Architecture**: Implements Christoffersen (1998) likelihood ratio tests and Markov transition matrices ($n_{ij}$) to evaluate independence and conditional coverage.
+        * **Technical Depth**: Automates evaluation scripts across rolling historical volatility windows, maintaining empirical violation rates strictly within 95% confidence bounds.
+    * **[FinDiff](https://github.com/chirag-7/FinDiff)**: Conditional generative diffusion framework for synthetic financial time-series generation and macro stress testing.
+        * **Architecture**: Implements a PyTorch conditional diffusion architecture with swappable Transformer backbones and classifier-free guidance.
+        * **Technical Depth**: Generates synthetic tail-risk crash scenarios preserving asset correlation matrices, achieving a $>0.95$ $1-\text{KS}$ distributional similarity score for risk auditing.
+
+* **Mid-Frequency Trading & Pod Alpha**
+    * **[FamaFrench](https://github.com/chirag-7/FamaFrench)**: Barra-style multi-factor equity risk and residual alpha attribution engine.
+        * **Architecture**: Constructs the 5 Fama-French style factors (Market, Size, Value, Profitability, Investment) and executes rolling cross-sectional regressions.
+        * **Technical Depth**: Isolates style factor exposures ($\beta$) and applies Ledoit-Wolf covariance shrinkage, achieving a 34% reduction in unexplained pricing error (GRS statistic) and an out-of-sample Sharpe ratio of 1.52.
+    * **[HATS](https://github.com/chirag-7/HATS)**: Hierarchical Graph Attention Network (HATS) pipeline for cross-asset momentum spillovers and supply-chain lead-lag signals.
+        * **Architecture**: Constructs relational company graphs in PyTorch Geometric using Wikidata supply-chain and sector metadata based on Kim et al. (ACM/IJCAI).
+        * **Technical Depth**: Utilizes relational GAT layers to capture non-linear lead-lag return propagation, achieving a 19.8% Sharpe ratio improvement over temporal baselines.
+    * **[patchtst](https://github.com/chirag-7/patchtst)**: Patch-wise time-series Transformer engine for multi-horizon return forecasting.
+        * **Architecture**: Implements Nie et al. (ICLR 2023) using 1D convolutional subseries patch tokenization and channel-independent Transformer backbones.
+        * **Technical Depth**: Processes long look-back windows without overfitting, reducing multi-day return forecasting Mean Squared Error (MSE) by 21% over state-of-the-art time-series neural baselines.
+
+* **Quantitative Asset Management & Portfolio Allocation**
+    * **[bl-portfolio-optimiser](https://github.com/chirag-7/bl-portfolio-optimiser)**: Bayesian Black-Litterman multi-asset portfolio optimization engine.
+        * **Architecture**: Combines CAPM market equilibrium priors with investor views using Idzorek (2005) view-confidence mapping matrices ($P, Q, \Omega$).
+        * **Technical Depth**: Computes posterior expected returns and covariance matrices, achieving a 28% turnover reduction and a 1.41 Sharpe ratio over unconstrained Mean-Variance baselines.
+    * **[TSMOM](https://github.com/chirag-7/TSMOM)**: Multi-asset Time Series Momentum (TSMOM) managed futures trend-following pipeline.
+        * **Architecture**: Calculates 12-month return direction signals ($\text{sign}(r_{i, t-12 \to t})$) across multi-asset futures datasets based on Moskowitz, Ooi, & Pedersen (2012).
+        * **Technical Depth**: Scales long/short asset weights inversely by ex-ante annualized volatility ($\sigma_{i,t}$), delivering an out-of-sample 1.18 Sharpe ratio with zero correlation to equity drawdowns.
+    * **[hierarchical_risk_parity](https://github.com/chirag-7/hierarchical_risk_parity)**: Machine learning risk allocation engine implementing Hierarchical Risk Parity (HRP).
+        * **Architecture**: Replicates Marcos López de Prado (2016) using single-linkage hierarchical tree clustering, quasi-diagonalization, and recursive bisection.
+        * **Technical Depth**: Allocates portfolio risk top-down without requiring covariance matrix inversion ($\Sigma^{-1}$), reducing out-of-sample variance by 18% over traditional Minimum Variance allocations.
+
 * **Industrial Analytics & Quality Engineering**
     * **[Predictive Maintenance MLOps](https://github.com/chirag-7/predictive-maintenance-mlops)**: High-frequency IoT tool Fault Detection and Classification (FDC) streaming platform.
         * **Architecture**: Connects industrial factory machine telemetry feeds directly into a streaming predictive pipeline.
@@ -60,22 +131,6 @@ Beyond the mirrored repositories, I have developed these personal projects to ap
     * **[VAE for De Novo Molecular Generation](https://github.com/chirag-7/VAE-for-De-Novo-Molecular-Generation)**: Deep variational generative model for structural computational chemistry and drug discovery.
         * **Architecture**: Implements sequence autoencoders parsing molecular strings tokenized via SMILES and SELFIES syntax rules.
         * **Technical Depth**: Evaluates continuous latent space generation via a $\beta$-TC-VAE architecture in PyTorch, mapping outputs against Quantitative Estimate of Drug-likeness (QED) and Synthetic Accessibility (SA) constraints.
-
-* **Large-Scale Training**
-    * **[RLVR](https://github.com/chirag-7/RLVR)**: Reasoning optimization post-training alignment suite using Reinforcement Learning with Verifiable Rewards.
-        * **Architecture**: Implements Group Relative Policy Optimization (GRPO) over the GSM8K mathematical reasoning token dataset to optimize adapter policies.
-        * **Technical Depth**: Bypasses unstable neural reward models by building dual rule-based deterministic parsers that mathematically verify code structure, exact string formats, and solution correctness.
-    * **[Pi Zero Pytorch](https://github.com/chirag-7/pi-zero-pytorch)**: Embodied Vision-Language-Action (VLA) robotics foundational policy architecture.
-        * **Architecture**: Implements a Pi0-style physical intelligence network to execute training loops over interleaved multi-modal inputs and action-conditioned physical trajectories.
-        * **Technical Depth**: Pairs a multi-modal pre-fusion Transformer core with a Flow Matching continuous diffusion inference kernel to stream smooth, real-time spatial manipulation joint coordinates.
-    * **[Flamingo Pytorch](https://github.com/chirag-7/flamingo-pytorch)**: Multimodal interleaved vision-language foundational sequence generation engine.
-        * **Architecture**: Builds a Pythonic implementation of the DeepMind Flamingo framework, introducing Gated Cross-Attention blocks to bridge frozen Vision Encoders and Large Language Models.
-        * **Technical Depth**: Implements a structural Perceiver Resampler to reduce variable-sized visual spatial grids into a fixed token footprint, avoiding context window scaling explosions.
-
-* **AI Safety & Governance**
-    * **[AI Guardrails](https://github.com/chirag-7/AI_Guardrails)**: A modular **Defense-in-Depth** framework for securing Large Language Model agents against adversarial attacks and operational failures.
-        * **Architecture**: Implements a **4-Layer Defense Pipeline** (Input, Dialog, Execution, Output) using **NVIDIA NeMo Guardrails** and **Colang** to enforce strict behavioral policies.
-        * **Unified Security**: Features **Input Rails** for jailbreak/injection detection, **Dialog Rails** for topic and scope enforcement, **Execution Rails** for secure RBAC tool usage, and **Output Rails** for hallucination mitigation and fact-checking.
 
 * **Financial & Causal ML**
     * **[DRW Crypto Market Prediction](https://github.com/chirag-7/DRW-Crypto-Market-Prediction-Kaggle-)**: **4th Place Solution** (Top 0.3% of 1,448 participants) for predicting high-frequency next-tick returns.
