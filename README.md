@@ -75,7 +75,7 @@ Beyond the mirrored repositories, I have developed these personal projects to ap
         * **Technical Depth**: Accelerates calibration speed over traditional numerical solvers while bounding option pricing errors within $<0.01\%$ RMSE.
     * **[Deep-Hedging](https://github.com/chirag-7/Deep-Hedging)**: Neural policy network optimization framework for dynamic derivative portfolio hedging under market frictions.
         * **Architecture**: Trains reinforcement learning policy agents in PyTorch under proportional transaction costs ($c=1\%$) across simulated market paths.
-        * **Technical Depth**: Directly optimizes Entropic Risk Measures and Expected Shortfall ($CVaR_{99\%}$), achieving a 21.4% tail-risk reduction relative to Black-Scholes Delta baselines.
+        * **Technical Depth**: Directly optimizes Entropic Risk Measures and Expected Shortfall (CVaR), achieving a 21.4% tail-risk reduction relative to Black-Scholes Delta baselines.
 
 * **Middle & Back Office Quantitative Risk & Governance**
     * **[CVaR-Portfolio](https://github.com/chirag-7/CVaR-Portfolio)**: High-dimensional convex portfolio risk optimization engine maximizing tail-loss protection.
